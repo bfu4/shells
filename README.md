@@ -1,2 +1,2 @@
 # shells
-repo of shells that ive used lol
+repo of scripts that ive used lol
