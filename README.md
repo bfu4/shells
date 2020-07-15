@@ -13,3 +13,10 @@ libusbmuxd, automake, cython, gnutls, libgcrypt, libzip
 * needs git + homebrew
 ~~~~
 
+# start
+~~~~
+./start.sh
+* starts docker and very specifically launches
+pre-existing docker machine
+* can be used as template tho lol
+~~~~
