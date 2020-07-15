@@ -13,10 +13,12 @@ libusbmuxd, automake, cython, gnutls, libgcrypt, libzip
 * needs git + homebrew
 ~~~~
 
-# start
+# setup
 ~~~~
-./start.sh
-* starts docker and very specifically launches
-pre-existing docker machine
-* can be used as template tho lol
+./setup.sh
+* explains new command to
+launch docker machine as an 
+executable
+* for example, i have a kali docker that i use
+and i can just type "kali" in my terminal
 ~~~~
