@@ -18,6 +18,7 @@ echo "in the next window, type"
 
 printf "\033[1;36m"
 echo "#/bin/sh"
+echo "open ~/Applications/Docker.app"
 echo "docker start (container name)"
 echo "screen -S (title) docker exec -it (container name) /bin/bash"
 echo "docker stop (container name)"
