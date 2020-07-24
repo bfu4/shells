@@ -1,4 +1,5 @@
 brew install libusbmuxd
+brew install cmake gcc
 brew install automake
 brew install --HEAD libimobiledevice
 brew install cython
