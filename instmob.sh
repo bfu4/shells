@@ -9,7 +9,6 @@ brew install libzip
 brew install libtool
 brew install libplist
 brew install libxml2
-brew install 
 
 printf  "\033[1;33m<!>\033[1;31m dependencies installed\033[1;33m<!>\033[0m\n"
 
@@ -20,6 +19,15 @@ printf  "\033[1;33m<!>\033[1;31m MAKING LIBIMOBILEDEVICE USING GNUTLS\033[1;33m<
 ./autogen.sh --disable-openssl
 make
 sudo make install
+
+cd ..
+printf  "\033[1;33m<!>\033[1;31m CLONING LIBIRECOVERY \033[1;33m<!>\033[0m\n"
+
+git clone https://github.com/libimobiledevice/libirecovery.git
+cd libirecovery
+./autogen.sh
+make
+make install
 
 cd ..
 printf  "\033[1;33m<!>\033[1;31m CLONING LIBIDEVICEACTIVATION \033[1;33m<!>\033[0m\n"
