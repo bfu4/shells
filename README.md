@@ -22,3 +22,17 @@ executable
 * for example, i have a kali docker that i use
 and i can just type "kali" in my terminal
 ~~~~
+
+# mkcmd
+~~~~
+mkcmd [-option] [args]
+
+options:
+-p : from pre-existing file
+-n : create new file
+
+args:
+either the pre-existing file path or the name of the new command
+
+* puts either a new or pre-existing script into /usr/local/bin (which makes execution just.. so much not annoying when you're cluttered and you use it a lot..)
+~~~~
