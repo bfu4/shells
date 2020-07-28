@@ -30,4 +30,4 @@ nano $name
 
 cp $name /usr/local/bin
 
-chmod 777 /usr/local/bin/$name
+chmod +x /usr/local/bin/$name
