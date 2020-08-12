@@ -9,6 +9,7 @@ brew install libzip
 brew install libtool
 brew install libplist
 brew install libxml2
+brew install ifuse
 
 printf  "\033[1;33m<!>\033[1;31m dependencies installed\033[1;33m<!>\033[0m\n"
 
