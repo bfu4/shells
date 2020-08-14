@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# make stuff FAST
+
+
+makethis() {
+	make && sudo make install
+}
+
+read -a args -p "FASTMAKE >"
+
+for i in "${args[@]}"
+
+do
+	cd $i && makethis && cd ..
+done
+
