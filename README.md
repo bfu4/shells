@@ -1,5 +1,5 @@
 # shells
-A repository of scripts I've used on Mac
+A repository of scripts I've used on Mac (and now Arch btw)
 
 
 
@@ -35,4 +35,17 @@ args:
 either the pre-existing file path or the name of the new command
 
 * puts either a new or pre-existing script into /usr/local/bin (which makes execution just.. so much not annoying when you're cluttered and you use it a lot..)
+~~~~
+
+# fastmake
+~~~~
+im just fucking lazy.
+
+fastmake (needs make)
+
+opens a prompt that looks like this :
+fastmake>
+
+each arg you type is a directory accessible from your cwd and will make & make install everything
+in those folders
 ~~~~
