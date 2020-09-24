@@ -1,5 +1,6 @@
 # shells
-A repository of scripts I've used on Mac (and now Arch btw)
+A repository of scripts I've used on Mac
+While you're at it, see: [macdots](https://github.com/bfu4/macdots.git)
 
 
 
