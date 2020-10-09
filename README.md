@@ -50,3 +50,8 @@ fastmake>
 each arg you type is a directory accessible from your cwd and will make & make install everything
 in those folders
 ~~~~
+
+# quicknasm
+~~~~
+you can put this one together
+~~~~
