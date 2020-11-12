@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ -z "$1" ]; then
+   echo "enter a name and try again"
+   exit
+fi
+
+printf "\033[1;35m ------------[] compile []------------\033[0m\n"
+javac -verbose $1.java
+printf "\033[1;35m ------------[]         []------------\033[0m\n"
+printf "\033[1;35m ------------[]  test   []------------\033[0m\n"
+java $1
+printf "\033[1;35m ------------[]         []------------\033[0m\n"

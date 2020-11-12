@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ####### more bullshit to make my life easy #######
 
 complete() {
@@ -18,7 +20,7 @@ then rv="n"
 elif test -e /usr/bin/vim
 then rv="v"
 fi
-echo "$rv" 
+# echo "$rv" 
 }
 
 
