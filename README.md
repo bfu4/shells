@@ -55,3 +55,13 @@ in those folders
 ~~~~
 you can put this one together
 ~~~~
+
+# classtest
+~~~~
+a script to test single java classes
+~~~~
+
+# base64
+~~~~
+a script to fast encode strings into base64
+~~~~
