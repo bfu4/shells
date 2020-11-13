@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /usr/local/share/base64/
+java ToBase64 $@
