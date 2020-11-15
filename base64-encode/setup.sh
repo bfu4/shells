@@ -2,7 +2,7 @@
 
 printf "\033[1;35m[MAKING DIRECTORY]\033[0m\n"
 mkdir /usr/local/share/base64
-cp ToBase64 /usr/local/share/base64
+cp ToBase64.class /usr/local/share/base64
 
 echo
 
