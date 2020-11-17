@@ -8,10 +8,7 @@ private static ArrayList<String> _AL = new ArrayList<>();
        _AL = new ArrayList<String>(List.of(args));
        _AL = removeFirst(_AL);
        if (args[0].equals("-e") || args[0].equals("--encode")) {
-           HashMap<String, String> m = encode(_AL);
-           for (String s : m.keySet()) {
-              System.out.println("[" + s + "] : " + m.get(s));
-           }
+           System.out.println("[encoded] : " + encode(_AL));
        } else if (args[0].equals("-d") || args[0].equals("--decode")) {
            System.out.println("[decoded] : " + decode(_AL.get(0)));
        } else {
@@ -32,13 +29,17 @@ private static ArrayList<String> _AL = new ArrayList<>();
       System.out.println(); 
    }
 
-   private static HashMap<String, String> encode(ArrayList<String> s) {
+   private static String encode(ArrayList<String> s) {
       Base64.Encoder encoder = Base64.getEncoder();
-      HashMap<String, String> arr = new HashMap<String, String>();
-      for (String str : s) {
-         arr.put(str, new String(encoder.encode(str.getBytes())));
+      String s1 = "";
+      for (String s2 : s) {
+         if (s.indexOf(s2) != s.size() - 1) {
+            s1 += s2 + " ";
+         } else {
+	    s1 += s2;
+         }
       }
-      return arr;
+      return new String(encoder.encode(s1.getBytes()));
    }
 
    private static String decode(String src) {
