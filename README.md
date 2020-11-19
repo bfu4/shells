@@ -68,5 +68,6 @@ a script to fast encode strings into base64
 
 # inhale
 ~~~~
-a script to automate text output of netspooky's [inhale](https://github.com/netspooky/inhale)
+a script to automate text output of netspooky's inhale
 ~~~~
+[netspooky](https://github.com/netspooky) : [inhale](https://github.com/netspooky/inhale)
