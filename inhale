@@ -1,0 +1,22 @@
+#!/bin/bash
+
+DIR=`pwd`
+
+cd /usr/local/share/netspooky/inhale/
+
+hmen() {
+printf "0=======================================0\n"
+printf "|                                       |\n"
+printf "|      usage: inhale [ARGS] [FILE]      |\n"
+printf "|                                       |\n"
+printf "|    -l:  local file, in pwd            |\n"
+printf "|    -fp:   full filepath               |\n"
+printf "|                                       |\n"
+printf "0=======================================0\n" 
+}
+
+case $1 in
+"-l") python3 inhale.py -f $DIR/$2 -i;;
+"-fp") python3 inhale.py -f $2 -i;;
+*) hmen;;
+esac

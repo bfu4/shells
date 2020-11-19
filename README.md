@@ -65,3 +65,8 @@ a script to test single java classes
 ~~~~
 a script to fast encode strings into base64
 ~~~~
+
+# inhale
+~~~~
+a script to automate text output of netspooky's [inhale](https://github.com/netspooky/inhale)
+~~~~
