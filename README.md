@@ -71,3 +71,8 @@ a script to fast encode strings into base64
 a script to automate text output of netspooky's inhale
 ~~~~
 [netspooky](https://github.com/netspooky) : [inhale](https://github.com/netspooky/inhale)
+
+# htoa
+~~~~
+half of the full program, dumps hex of ascii strings
+~~~~
