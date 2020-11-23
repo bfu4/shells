@@ -7,3 +7,5 @@ syntax:
 base64 words words words
 
 and will output each arg $@ into base 64
+
+dep: java. will need jre or jdk
